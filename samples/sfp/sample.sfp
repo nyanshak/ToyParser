@@ -1,0 +1,4 @@
+{ loop abc
+    {   = fac { * fac c } }
+    {   = c {+c1} }
+} {pr fac}
